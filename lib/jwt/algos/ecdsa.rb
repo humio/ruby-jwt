@@ -5,8 +5,7 @@ module JWT
 
       SUPPORTED = %w[ES256 ES256k1 ES384 ES512].freeze
       NAMED_CURVES = {
-        'prime256v1' => 'ES256',
-        'secp256k1' => 'ES256k1',
+        'secp256k1' => 'ES256',
         'secp384r1' => 'ES384',
         'secp521r1' => 'ES512'
       }.freeze
